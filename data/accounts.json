@@ -1,0 +1,53 @@
+{
+    "admin":[
+        "admin",
+        "okidoki"
+    ],
+    "phu":[
+        "phu",
+        "okidoki"
+    ],
+    "sto":[
+        "sto",
+        "okidoki"
+    ],
+    "jna":[
+        "jna",
+        "okidoki"
+    ],
+    "system":[
+        "system",
+        "okidoki2019"
+    ],
+    "lho":[
+        "lho",
+        "okidoki"
+    ],
+    "rh":[
+        "rh",
+        "okidoki"
+    ],
+    "user_SupCP" : [
+        "user_SupCP",
+        "okidoki"
+    ],
+    "user_SupER" : [
+        "user_SupER",
+        "okidoki"
+    ]
+    ,
+    "user_GesCP" : [
+        "user_GesCP",
+        "okidoki"
+    ]
+    ,
+    "user_Stagiaire" : [
+        "user_Stagiaire",
+        "okidoki"
+    ]
+    ,
+    "user_GesER" : [
+        "user_GesER",
+        "okidoki"
+    ]
+}

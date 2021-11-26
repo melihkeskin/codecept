@@ -1,0 +1,316 @@
+{
+    "Assigne_a": {
+        "id": ".assignee"
+    },
+    "Beneficiaire": {
+        "id": ".B_Beneficiaire",
+        "Non": "Non",
+        "Oui": "Oui"
+    },
+    "Canal": {
+        "Courrier_Papier": "3",
+        "Email": "1",
+        "Fax": "2",
+        "id": ".B_CanalEntree",
+        "Interne": "4"
+    },
+    "Code_carriere": {
+        "id": ".B_CodeCarriere"
+    },
+    "Commentaire": {
+        "id": ".B_Commentaire"
+    },
+    "Complet": {
+        "id": ".B_Complet",
+        "Non": "Non",
+        "Oui": "Oui"
+    },
+    "Contact_du_client": {
+        "id": ".B_ContactClient"
+    },
+    "Date_de_comite": {
+        "id": ".B_DateComite"
+    },
+    "Date_de_creation": {
+        "id": ".creationDate"
+    },
+    "Date_de_naissance": {
+        "id": ".B_DateNaissance"
+    },
+    "Date_du_courrier": {
+        "id": ".B_DateCourrier"
+    },
+    "Demandeur_de_la_validation": {
+        "id": ".B_DemandeurValidation",
+        "Gestionnaire_Employeur_et_Recouvrement": "user_GesER",
+        "Superviseur_Carrieres_et_Prestations": "user_SupCP",
+        "Superviseur_Employeur_et_Recouvrement": "user_SupER",
+        "User_Stagiaire": "user_Stagiaire"
+    },
+    "Dossier_de_pension": {
+        "id": ".B_DossierPension",
+        "Non": "Non",
+        "Oui": "Oui"
+    },
+    "Gestionnaire_du_dossier": {
+        "Gestionnaire_Carrieres_et_Prestations": "user_GesCP",
+        "Gestionnaire_Employeur_et_Recouvrement": "user_GesER",
+        "Superviseur_Carrieres_et_Prestations": "user_SupCP",
+        "Superviseur_Employeur_et_Recouvrement": "user_SupER",
+        "id": ".B_GestionnaireDossier"
+    },
+    "Identifiant_du_pli": {
+        "id": ".B_IdPli"
+    },
+    "N_SIREN": {
+        "id": ".B_NumSIREN"
+    },
+    "N_SS": {
+        "id": ".B_NumSS"
+    },
+    "N_Tiers": {
+        "id": ".B_RefClient"
+    },
+    "N_Tiers_associe": {
+        "id": ".B_NumTiersAssocie"
+    },
+    "Nature_de_document": {
+        "Activite_Carriere": "ActiviteCarriere",
+        "Autre": "Autre",
+        "Demandes": "Demandes",
+        "Donnees_personnelles": "DonneesPersonnelles",
+        "Employeur": "EmployeurCommun",
+        "id": ".B_NatureDocument",
+        "Organisme_exterieur": "OrganismeExterieur",
+        "Prelevements": "Prelevements"
+    },
+    "Nom_du_client": {
+        "id": ".B_NomClient"
+    },
+    "Objet_du_courrier": {
+        "id": ".B_ObjetCourrier"
+    },
+    "Paiement": {
+        "id": ".B_DossierPension",
+        "Non": "Non",
+        "Oui": "Oui"
+    },
+    "Participant": {
+        "id": ".B_Participant",
+        "Non": "Non",
+        "Oui": "Oui"
+    },
+    "Prenom_du_client": {
+        "id": ".B_PrenomClient"
+    },
+    "Priorite": {
+        "id": ".B_Priorite"
+    },
+    "Raison_sociale": {
+        "id": ".B_RaisonSociale"
+    },
+    "Reponse": {
+        "id": ".B_Reponse"
+    },
+    "Reference_d_archivage": {
+        "id": ".B_RefArchivage"
+    },
+    "Service": {
+        "Carriere_et_Prestations": "CarrieresEtPrestations",
+        "Employeur_Recouvrement": "EmployeurRecouvrement",
+        "id": ".B_DirectionDestinataire"
+    },
+    "Sous-service": {
+        "Action_sociale_et_Pre_contentieux": "ActionSocialeEtPrecontentieux",
+        "Affiliation_et_Identification": "AffiliationEtIdentification",
+        "Affilies_Groupe_AJ": "AffiliesGroupeAJ",
+        "Affilies_Groupe_KZ": "AffiliesGroupeKZ",
+        "Affilies_Stagiaires": "AffiliesStagiaires",
+        "id": ".B_ServiceDestinataire"
+    },
+    "Statut_du_courrier": {
+        "id": ".B_Statut"
+    },
+    "Statut_du_document": {
+        "id": ".B_StatutDocument"
+    },
+    "Statut_tiers": {
+        "ACTIF": "ACTIF",
+        "ADHESION_SANS_IMMATRICULATION": "ADHESIONSANSIMMATRICULATION",
+        "AFFILIE": "AFFILIE",
+        "APTITUDE_RECOUVREE": "APTITUDERECOUVREE",
+        "CAPITAL_UNIQUE": "CAPITALUNIQUE",
+        "DECEDE": "DECEDE",
+        "DECEDE_IMPUTABLE": "DECEDEIMPUTABLE",
+        "ENREGISTRE_STAGIAIRE": "ENREGISTRESTAGIAIRE",
+        "id": ".B_StatutTiers",
+        "IDENTIFIE": "IDENTIFIE",
+        "IMMATRICULE": "IMMATRICULE",
+        "INACTIF": "INACTIF ",
+        "INACTIF_NON_COTISANT": "INACTIFNONCOTISANT ",
+        "INAPT_DEF_AVEC_IMPUTABILITE": "INAPTDEFAVECIMPUTABILITE",
+        "INAPTITUDE_DEFINITIVE": "INAPTITUDEDEFINITIVE",
+        "INDEPENDANT": "INDEPENDANTCOTISANT",
+        "INITIAL": "INITIAL",
+        "INTERRUPTION_DEFINIT_ACCEPTEE": "INTERRUPTIONDEFINITACCEPTEE",
+        "INTERRUPTION_DEFINIT_DECLAREE": "INTERRUPTIONDEFINITDECLAREE",
+        "INTERRUPTION_TEMPORAIRE": "INTERRUPTIONTEMPORAIRE",
+        "LIQUIDATION_TOTALE": "LIQUIDATIONTOTALE",
+        "PREAFFILE": "PREAFFILIE",
+        "PREIMMATRICULE": "PREIMMATRICULE",
+        "SANS_SUITE": "SANSSUITE",
+        "SUSPENDU": "SUSPENDU",
+        "TEMPS_ALTERNE": "TEMPSALTERNE"
+    },
+    "Type_de_chemise": {
+        "A_affecter": "AAffecter",
+        "Calcul": "Calcul",
+        "Carriere_europeenne": "CarriereEuropeenne",
+        "Conseil_medical": "ConseilMedical",
+        "Correspondances": "Correspondances",
+        "Divers_a_classer": "DiversAClasser",
+        "id": ".B_TypeChemise",
+        "Justificatifs": "Justificatifs",
+        "Reversion": "Reversion"
+    },
+    "Type_de_courrier": {
+        "Affiliation": "Affiliation",
+        "Assurance": "Assurance",
+        "Autre": "Autre",
+        "Carriere": "Carriere",
+        "Comptabilite": "Comptabilite",
+        "Contact": "Contact",
+        "Contentieux": "ContentieuxViolet",
+        "Cotisations": "Cotisations",
+        "Divers": "DiversVerte",
+        "Donnees_sociales": "DonneesSocialesBleuEtSaumon",
+        "Echeancier": "Echeancier",
+        "id": ".B_TypeCourrier",
+        "Immatriculation": "ImmatriculationJaune",
+        "Liquidation": "Liquidation",
+        "Majoration_de_retard": "MajorationDeRetardOrange",
+        "Pension": "Pension",
+        "Reglementation": "Reglementation",
+        "Regularisation": "RegularisationRose",
+        "Sociale": "Sociale"
+    },
+    "Type_de_document": {
+        "Accident_aerien_BEA": "AccidentAerienBEA",
+        "Accident_du_travail": "AccidentDuTravail",
+        "Accord/refus_echeancier": "AccordRefusEcheancier",
+        "Accord/refus_remise": "AccordRefusRemise",
+        "Acte_de_deces": "ActeDeDeces",
+        "Acte_de_naissance": "ActeDeNaissance",
+        "Adresse": "Adresse",
+        "AGS": "AGS",
+        "Assiette": "Assiette",
+        "ATD/Opposition_administrative": "ATDOppositionAdministrative",
+        "Attes_Cessation_activite": "AttesCessationActivite",
+        "Attes_Domiciliation_fiscale": "AttestDomiciliationFiscale",
+        "Attes_Employeur": "AttestationEmployeur",
+        "Attes_fin_de_droit_chomage": "AttestationFinDeDroitChomage",
+        "Attes_Prevoyance_obligatoire": "AttesPrevoyanceObligatoire",
+        "Attes_stage/formation": "AttestationStageFormation",
+        "Attes_Suspension_DGAC": "AttesSuspensionDGAC",
+        "Attes_visites_medicales": "AttestVisitesMedicales",
+        "Attest_pole_emploi": "AttestPoleEmploi",
+        "Autre": "Autre",
+        "Avenant_contrat_de_travail": "AvenantContratDeTravail",
+        "Avis": "Avis",
+        "Avis_d_immat": "AvisDImmat",
+        "Avis_d_impot": "AvisDImpot ",
+        "Avis_de_paiment": "AvisDePaiement",
+        "BDN_valide": "BDNValide",
+        "Bilan": "Bilan",
+        "Bordereau_de_cot": "BordereauDeCot",
+        "BRCD": "BRCD",
+        "Bulletin_de_paye": "BulletinDePaye",
+        "CAFAT": "CAFAT",
+        "Carte_d_identite_ou_passeport": "CarteDIdentiteOuPasseport",
+        "Cert_Scolarite": "CertScolarite",
+        "Cert_visites_medicales": "CertVisitesMedicales",
+        "Cessation_d_activite": "CessationDActivite",
+        "CFE": "CFE",
+        "CLEISS": "CLEISS",
+        "Conseil_medical/imputabilite": "ConseilMedicalImputabilite",
+        "Conseil_medical/inaptitude": "ConseilMedicalInaptitude",
+        "Contrat/certif_de_travail": "ContratCertifDeTravail",
+        "Convention_TA": "ConventionTA",
+        "Courrier_de_reponse": "Reponse",
+        "Courrier_demande_d_imputabilite": "CourrierDemandeDImputabilite",
+        "DADS": "DADS",
+        "Decision_CA": "DecisionCA",
+        "Declaration/Honneur_Prelevement": "DeclarationHonneurPrelevement",
+        "Declaration/honneur_VG-Rachat": "DeclarHonneurVGRachat",
+        "Declaration_acceptation_decode": "DeclarationAcceptationDeCote",
+        "Declaration_de_non_remariage": "DeclarationDeNonRemariage",
+        "Demande_Aide_sociale": "DemandeAideSociale",
+        "Demande_ATE": "DemandeATE",
+        "Demande_d_echeancier": "DemandeDEcheancier",
+        "Demande_d_immat": "DemandeDImmat",
+        "Demande_de_cantonnement": "DemandeDeCantonnement",
+        "Demande_de_remise": "DemandeDeRemise",
+        "Demande_de_VG_ou_rachat": "DemandeDeVGOuRachat",
+        "Demande_ISILIS": "DemandeISILIS",
+        "Demande_liquid_droit_direct": "DemandeLiquidationDroitDirect",
+        "Demande_liquid_droit_reversion": "DemandeLiquidationDroitReversion",
+        "DGAC": "DGAC",
+        "DH_non_separe_divorce": "DHNonSepareDivorce",
+        "Divers": "Divers",
+        "Doc_CA": "DocCA",
+        "Dossier_d_immat": "DossierDImmat",
+        "Dossier_de_pension": "DossierDePension",
+        "DPAE": "DPAE",
+        "DSN": "DSN",
+        "DSN_recouvrement": "DSNRecouvre",
+        "Etat_Civil": "EtatCivil",
+        "Fiche_contentieuse": "FicheContentieuse",
+        "Fiche_renseignement-code_internet": "FicheRenseignementCodeInternet",
+        "Fiche_signaletique": "FicheSignaletique",
+        "Formulaire_d_immat": "FormulaireDImmatriculation",
+        "Fusion": "Fusion",
+        "id": ".B_TypeDocument",
+        "Immatriculation_SANDIA": "ImmatriculationSANDIA",
+        "Imprime_demande_d_imputabilite": "ImprimeDemandeDImputabilite",
+        "Inaptitude": "Inaptitude",
+        "Infos_DGAC": "InfosDGAC",
+        "Jours": "Jours",
+        "Justif_couv_Maladie": "JustifCouvMaladie",
+        "Justif_Pension_CNAV": "JustifPensionCNAV",
+        "Justif_Service_militaire": "JustifServiceMilitaire",
+        "Lettre_cheque": "LettreCheque",
+        "Livret_de_famille": "LivretDeFamille",
+        "Mainlevee_d_opposition": "MainleveeDOpposition",
+        "Mainlevee_de_pension_alim": "MainleveeDePensionAlim",
+        "Medecin_conseil": "MedecinConseil",
+        "Mise_en_demeure": "MiseEnDemeure",
+        "Mise_sous_tutelle": "MiseSousTutelle",
+        "Mobilite_bancaire": "MobiliteBancaire",
+        "Notaire": "Notaire",
+        "Notification_de_pension_alim_Huissier": "NotificationDePensionAlimHuissier",
+        "Pension_d_invalidite": "PensionDInvalidite",
+        "Pertes_et_profits": "PertesEtProfits",
+        "Planning_TA": "PlanningTA",
+        "Reconstitution_de_carriere": "ReconstitutionDeCarriere",
+        "Regularisation": "Regularisation",
+        "Relance": "Relance",
+        "Releve_de_carriere": "ReleveDeCarriere",
+        "Releve_de_carriere_Eur/E205": "ReleveDeCarriereEurE205",
+        "Reprise_d_activite": "RepriseDActivite",
+        "Reprise_du_stock": "RepriseStock",
+        "RIB": "RIB",
+        "Saisie_remuneration": "SaisieRemuneration",
+        "Statut_CRPN": "StatutCRPN",
+        "Statut_de_la_societe": "StatutDeLaSociete",
+        "Taux_et_plafonds": "TauxEtPlafonds",
+        "UNEDIC": "UNEDIC",
+        "URSSAF": "URSSAF"
+    },
+    "Valideur": {
+        "id": ".B_Valideur",
+        "Gestionnaire_Carrieres_et_Prestations": "user_GesCP",
+        "Gestionnaire_Employeur_et_Recouvrement": "user_GesER",
+        "Superviseur_Employeur_et_Recouvrement": "user_SupER",
+        "Superviseur_Carrieres_et_Prestations": "user_SupCP"
+    }
+}

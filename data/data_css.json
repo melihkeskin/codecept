@@ -1,0 +1,40 @@
+{
+    "user_SupCP": {
+        "mes_courriers": "BrowsePlaceCourrierPersonnelleCPTab",
+        "shortcut_crea_courrier": "#shortcuts-dp .GEC_init_Step0_Creation",
+        "shortcut_doc_GED": ".GED_Document",
+        "shortcut_actualiser": ".ti-reload",
+        "shortcut_profile": ".user-initials",
+        "shortcuts_dropdown": ".shortcuts"
+    },
+    "user_SupER": {
+        "mes_courriers": "BrowsePlaceCourrierPersonnelleERTab",
+        "shortcut_crea_courrier": "#shortcuts-dp .GEC_init_Step0_Creation",
+        "shortcut_doc_GED": ".GED_Document",
+        "shortcut_actualiser": ".ti-reload",
+        "shortcut_profile": ".user-initials",
+        "shortcuts_dropdown": ".shortcuts"
+    },
+    "user_GesCP": {
+        "mes_courriers": "BrowsePlaceCourrierPersonnelleCPTab",
+        "shortcut_doc_GED": ".GED_Document",
+        "shortcut_actualiser": ".ti-reload",
+        "shortcut_profile": ".user-initials",
+        "shortcut_crea_courrier": ".shortcuts-simple"
+    },
+    "user_Stagiaire": {
+        "mes_courriers": "BrowsePlaceCourrierPersonnelleCPTab",
+        "shortcut_doc_GED": ".GED_Document",
+        "shortcut_actualiser": ".ti-reload",
+        "shortcut_profile": ".user-initials",
+        "shortcut_crea_courrier": ".shortcuts-simple"
+    },
+    "user_GesER": {
+        "mes_courriers": "BrowsePlaceCourrierPersonnelleERTab",
+        "shortcut_crea_courrier": ".shortcuts-simple",
+        "shortcut_doc_GED": "GED_Document",
+        "shortcut_actualiser": ".ti-reload",
+        "shortcut_profile": ".user-initials",
+        "shortcuts_dropdown": ".shortcuts"
+    }
+}

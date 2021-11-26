@@ -1,0 +1,319 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637765130608' stop='1637765189792'>
+    <name>Boutton:</name>
+    <title>Boutton:</title>
+    <test-cases>
+        <test-case start='1637765130608' status='passed' stop='1637765142239'>
+            <name>0103 - Checks the presence of buttons assigned to user_SupCP @bouton @user_SupCP</name>
+            <title>0103 - Checks the presence of buttons assigned to user_SupCP @bouton @user_SupCP</title>
+            <labels>
+                <label name='tag' value='@bouton'/>
+                <label name='tag' value='@user_SupCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765130895' status='passed' stop='1637765142223'>
+                    <name>I login "user_SupCP"</name>
+                    <title>I login "user_SupCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142223' status='passed' stop='1637765142227'>
+                    <name>I see element {"css":"#shortcuts-dp .GEC_init_Step0_Creation"}</name>
+                    <title>I see element {"css":"#shortcuts-dp .GEC_init_Step0_Creation"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142227' status='passed' stop='1637765142230'>
+                    <name>I see element {"css":".ti-reload"}</name>
+                    <title>I see element {"css":".ti-reload"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142230' status='passed' stop='1637765142235'>
+                    <name>I see element {"css":".GED_Document"}</name>
+                    <title>I see element {"css":".GED_Document"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142235' status='passed' stop='1637765142239'>
+                    <name>I see element {"css":".user-initials"}</name>
+                    <title>I see element {"css":".user-initials"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142240' status='passed' stop='1637765142240'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142240' status='passed' stop='1637765142240'>
+                    <name>Login as user_SupCP</name>
+                    <title>Login as user_SupCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142240' status='passed' stop='1637765142240'>
+                    <name>Checking if user user_SupCP is connected</name>
+                    <title>Checking if user user_SupCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765142240' status='passed' stop='1637765142240'>
+                    <name>User user_SupCP is connected!</name>
+                    <title>User user_SupCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765142283' status='passed' stop='1637765154295'>
+            <name>0203 - Checks the presence of buttons assigned to user_SupER @bouton @user_SupER</name>
+            <title>0203 - Checks the presence of buttons assigned to user_SupER @bouton @user_SupER</title>
+            <labels>
+                <label name='tag' value='@bouton'/>
+                <label name='tag' value='@user_SupER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765142551' status='passed' stop='1637765154279'>
+                    <name>I login "user_SupER"</name>
+                    <title>I login "user_SupER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154279' status='passed' stop='1637765154283'>
+                    <name>I see element {"css":"#shortcuts-dp .GEC_init_Step0_Creation"}</name>
+                    <title>I see element {"css":"#shortcuts-dp .GEC_init_Step0_Creation"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154283' status='passed' stop='1637765154287'>
+                    <name>I see element {"css":".ti-reload"}</name>
+                    <title>I see element {"css":".ti-reload"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154287' status='passed' stop='1637765154291'>
+                    <name>I see element {"css":".GED_Document"}</name>
+                    <title>I see element {"css":".GED_Document"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154291' status='passed' stop='1637765154295'>
+                    <name>I see element {"css":".user-initials"}</name>
+                    <title>I see element {"css":".user-initials"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154296' status='passed' stop='1637765154296'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154296' status='passed' stop='1637765154296'>
+                    <name>Login as user_SupER</name>
+                    <title>Login as user_SupER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154296' status='passed' stop='1637765154296'>
+                    <name>Checking if user user_SupER is connected</name>
+                    <title>Checking if user user_SupER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765154296' status='passed' stop='1637765154296'>
+                    <name>User user_SupER is connected!</name>
+                    <title>User user_SupER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765154332' status='passed' stop='1637765165958'>
+            <name>0303 - Checks the presence of buttons assigned to user_GesCP @bouton @user_GesCP</name>
+            <title>0303 - Checks the presence of buttons assigned to user_GesCP @bouton @user_GesCP</title>
+            <labels>
+                <label name='tag' value='@bouton'/>
+                <label name='tag' value='@user_GesCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765154602' status='passed' stop='1637765165952'>
+                    <name>I login "user_GesCP"</name>
+                    <title>I login "user_GesCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165952' status='passed' stop='1637765165954'>
+                    <name>I see element {"css":".shortcuts-simple"}</name>
+                    <title>I see element {"css":".shortcuts-simple"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165954' status='passed' stop='1637765165956'>
+                    <name>I see element {"css":".ti-reload"}</name>
+                    <title>I see element {"css":".ti-reload"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165956' status='passed' stop='1637765165958'>
+                    <name>I see element {"css":".user-initials"}</name>
+                    <title>I see element {"css":".user-initials"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165958' status='passed' stop='1637765165958'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165958' status='passed' stop='1637765165958'>
+                    <name>Login as user_GesCP</name>
+                    <title>Login as user_GesCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165958' status='passed' stop='1637765165958'>
+                    <name>Checking if user user_GesCP is connected</name>
+                    <title>Checking if user user_GesCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765165959' status='passed' stop='1637765165959'>
+                    <name>User user_GesCP is connected!</name>
+                    <title>User user_GesCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765165997' status='passed' stop='1637765177857'>
+            <name>0403 - Checks the presence of buttons assigned to user_Stagiaire @bouton @user_Stagiaire</name>
+            <title>0403 - Checks the presence of buttons assigned to user_Stagiaire @bouton @user_Stagiaire</title>
+            <labels>
+                <label name='tag' value='@bouton'/>
+                <label name='tag' value='@user_Stagiaire'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765166275' status='passed' stop='1637765177851'>
+                    <name>I login "user_Stagiaire"</name>
+                    <title>I login "user_Stagiaire"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177851' status='passed' stop='1637765177853'>
+                    <name>I see element {"css":".shortcuts-simple"}</name>
+                    <title>I see element {"css":".shortcuts-simple"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177853' status='passed' stop='1637765177855'>
+                    <name>I see element {"css":".ti-reload"}</name>
+                    <title>I see element {"css":".ti-reload"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177855' status='passed' stop='1637765177857'>
+                    <name>I see element {"css":".user-initials"}</name>
+                    <title>I see element {"css":".user-initials"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177858' status='passed' stop='1637765177858'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177858' status='passed' stop='1637765177858'>
+                    <name>Login as user_Stagiaire</name>
+                    <title>Login as user_Stagiaire</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177858' status='passed' stop='1637765177858'>
+                    <name>Checking if user user_Stagiaire is connected</name>
+                    <title>Checking if user user_Stagiaire is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765177858' status='passed' stop='1637765177858'>
+                    <name>User user_Stagiaire is connected!</name>
+                    <title>User user_Stagiaire is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765177895' status='passed' stop='1637765189757'>
+            <name>0503 - Checks the presence of buttons assigned to user_GesER @bouton @user_GesER</name>
+            <title>0503 - Checks the presence of buttons assigned to user_GesER @bouton @user_GesER</title>
+            <labels>
+                <label name='tag' value='@bouton'/>
+                <label name='tag' value='@user_GesER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765178171' status='passed' stop='1637765189751'>
+                    <name>I login "user_GesER"</name>
+                    <title>I login "user_GesER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189751' status='passed' stop='1637765189753'>
+                    <name>I see element {"css":".shortcuts-simple"}</name>
+                    <title>I see element {"css":".shortcuts-simple"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189753' status='passed' stop='1637765189755'>
+                    <name>I see element {"css":".ti-reload"}</name>
+                    <title>I see element {"css":".ti-reload"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189755' status='passed' stop='1637765189757'>
+                    <name>I see element {"css":".user-initials"}</name>
+                    <title>I see element {"css":".user-initials"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189758' status='passed' stop='1637765189758'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189758' status='passed' stop='1637765189758'>
+                    <name>Login as user_GesER</name>
+                    <title>Login as user_GesER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189758' status='passed' stop='1637765189758'>
+                    <name>Checking if user user_GesER is connected</name>
+                    <title>Checking if user user_GesER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765189758' status='passed' stop='1637765189758'>
+                    <name>User user_GesER is connected!</name>
+                    <title>User user_GesER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

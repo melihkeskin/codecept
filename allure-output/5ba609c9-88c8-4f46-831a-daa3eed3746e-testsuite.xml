@@ -1,0 +1,408 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637765070498' stop='1637765130597'>
+    <name>Check presence assigned:</name>
+    <title>Check presence assigned:</title>
+    <test-cases>
+        <test-case start='1637765070499' status='passed' stop='1637765082317'>
+            <name>0102 - Checks the presence of tabs assigned to user_SupCP @check_assigned @user_SupCP</name>
+            <title>0102 - Checks the presence of tabs assigned to user_SupCP @check_assigned @user_SupCP</title>
+            <labels>
+                <label name='tag' value='@check_assigned'/>
+                <label name='tag' value='@user_SupCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765070783' status='passed' stop='1637765082293'>
+                    <name>I login "user_SupCP"</name>
+                    <title>I login "user_SupCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765082294' status='passed' stop='1637765082317'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765082294' status='passed' stop='1637765082297'>
+                            <name>I wait for text "Accueil", 10</name>
+                            <title>I wait for text "Accueil", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765082298' status='passed' stop='1637765082301'>
+                            <name>I wait for text "Rechercher", 10</name>
+                            <title>I wait for text "Rechercher", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765082303' status='passed' stop='1637765082306'>
+                            <name>I wait for text "Mes courriers", 10</name>
+                            <title>I wait for text "Mes courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765082309' status='passed' stop='1637765082312'>
+                            <name>I wait for text "Tous les courriers", 10</name>
+                            <title>I wait for text "Tous les courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765082314' status='passed' stop='1637765082316'>
+                            <name>I wait for text "Reporting", 10</name>
+                            <title>I wait for text "Reporting", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765082317' status='passed' stop='1637765082317'>
+                            <name>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</name>
+                            <title>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765082318' status='passed' stop='1637765082318'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765082318' status='passed' stop='1637765082318'>
+                    <name>Login as user_SupCP</name>
+                    <title>Login as user_SupCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765082318' status='passed' stop='1637765082318'>
+                    <name>Checking if user user_SupCP is connected</name>
+                    <title>Checking if user user_SupCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765082318' status='passed' stop='1637765082318'>
+                    <name>User user_SupCP is connected!</name>
+                    <title>User user_SupCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765082358' status='passed' stop='1637765094353'>
+            <name>0202 - Checks the presence of tabs assigned to  user_SupER @check_assigned @user_SupER</name>
+            <title>0202 - Checks the presence of tabs assigned to  user_SupER @check_assigned @user_SupER</title>
+            <labels>
+                <label name='tag' value='@check_assigned'/>
+                <label name='tag' value='@user_SupER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765082646' status='passed' stop='1637765094326'>
+                    <name>I login "user_SupER"</name>
+                    <title>I login "user_SupER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765094329' status='passed' stop='1637765094353'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765094329' status='passed' stop='1637765094331'>
+                            <name>I wait for text "Accueil", 10</name>
+                            <title>I wait for text "Accueil", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765094334' status='passed' stop='1637765094337'>
+                            <name>I wait for text "Rechercher", 10</name>
+                            <title>I wait for text "Rechercher", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765094340' status='passed' stop='1637765094342'>
+                            <name>I wait for text "Mes courriers", 10</name>
+                            <title>I wait for text "Mes courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765094344' status='passed' stop='1637765094347'>
+                            <name>I wait for text "Tous les courriers", 10</name>
+                            <title>I wait for text "Tous les courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765094350' status='passed' stop='1637765094352'>
+                            <name>I wait for text "Reporting", 10</name>
+                            <title>I wait for text "Reporting", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765094353' status='passed' stop='1637765094353'>
+                            <name>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</name>
+                            <title>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765094354' status='passed' stop='1637765094354'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765094354' status='passed' stop='1637765094354'>
+                    <name>Login as user_SupER</name>
+                    <title>Login as user_SupER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765094355' status='passed' stop='1637765094355'>
+                    <name>Checking if user user_SupER is connected</name>
+                    <title>Checking if user user_SupER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765094355' status='passed' stop='1637765094355'>
+                    <name>User user_SupER is connected!</name>
+                    <title>User user_SupER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765094395' status='passed' stop='1637765106424'>
+            <name>0302 - Checks the presence of tabs assigned to user_GesCP @check_assigned @user_GesCP</name>
+            <title>0302 - Checks the presence of tabs assigned to user_GesCP @check_assigned @user_GesCP</title>
+            <labels>
+                <label name='tag' value='@check_assigned'/>
+                <label name='tag' value='@user_GesCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765094658' status='passed' stop='1637765106389'>
+                    <name>I login "user_GesCP"</name>
+                    <title>I login "user_GesCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765106391' status='passed' stop='1637765106424'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765106391' status='passed' stop='1637765106397'>
+                            <name>I wait for text "Accueil", 10</name>
+                            <title>I wait for text "Accueil", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765106409' status='passed' stop='1637765106412'>
+                            <name>I wait for text "Rechercher", 10</name>
+                            <title>I wait for text "Rechercher", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765106415' status='passed' stop='1637765106418'>
+                            <name>I wait for text "Mes courriers", 10</name>
+                            <title>I wait for text "Mes courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765106420' status='passed' stop='1637765106423'>
+                            <name>I wait for text "Tous les courriers", 10</name>
+                            <title>I wait for text "Tous les courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765106424' status='passed' stop='1637765106424'>
+                            <name>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</name>
+                            <title>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765106425' status='passed' stop='1637765106425'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765106425' status='passed' stop='1637765106425'>
+                    <name>Login as user_GesCP</name>
+                    <title>Login as user_GesCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765106426' status='passed' stop='1637765106426'>
+                    <name>Checking if user user_GesCP is connected</name>
+                    <title>Checking if user user_GesCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765106426' status='passed' stop='1637765106426'>
+                    <name>User user_GesCP is connected!</name>
+                    <title>User user_GesCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765106460' status='passed' stop='1637765118694'>
+            <name>0402 - Checks the presence of tabs assigned to  user_Stagiaire @check_assigned @user_Stagiaire</name>
+            <title>0402 - Checks the presence of tabs assigned to  user_Stagiaire @check_assigned @user_Stagiaire</title>
+            <labels>
+                <label name='tag' value='@check_assigned'/>
+                <label name='tag' value='@user_Stagiaire'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765106730' status='passed' stop='1637765118671'>
+                    <name>I login "user_Stagiaire"</name>
+                    <title>I login "user_Stagiaire"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765118674' status='passed' stop='1637765118694'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765118674' status='passed' stop='1637765118677'>
+                            <name>I wait for text "Accueil", 10</name>
+                            <title>I wait for text "Accueil", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765118680' status='passed' stop='1637765118682'>
+                            <name>I wait for text "Rechercher", 10</name>
+                            <title>I wait for text "Rechercher", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765118685' status='passed' stop='1637765118688'>
+                            <name>I wait for text "Mes courriers", 10</name>
+                            <title>I wait for text "Mes courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765118691' status='passed' stop='1637765118693'>
+                            <name>I wait for text "Tous les courriers", 10</name>
+                            <title>I wait for text "Tous les courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765118694' status='passed' stop='1637765118694'>
+                            <name>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</name>
+                            <title>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765118695' status='passed' stop='1637765118695'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765118695' status='passed' stop='1637765118695'>
+                    <name>Login as user_Stagiaire</name>
+                    <title>Login as user_Stagiaire</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765118696' status='passed' stop='1637765118696'>
+                    <name>Checking if user user_Stagiaire is connected</name>
+                    <title>Checking if user user_Stagiaire is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765118696' status='passed' stop='1637765118696'>
+                    <name>User user_Stagiaire is connected!</name>
+                    <title>User user_Stagiaire is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765118735' status='passed' stop='1637765130560'>
+            <name>0502 - Checks the presence of tabs assigned to user_GesER @check_assigned @user_GesER</name>
+            <title>0502 - Checks the presence of tabs assigned to user_GesER @check_assigned @user_GesER</title>
+            <labels>
+                <label name='tag' value='@check_assigned'/>
+                <label name='tag' value='@user_GesER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765119012' status='passed' stop='1637765130506'>
+                    <name>I login "user_GesER"</name>
+                    <title>I login "user_GesER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765130509' status='passed' stop='1637765130560'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765130509' status='passed' stop='1637765130513'>
+                            <name>I wait for text "Accueil", 10</name>
+                            <title>I wait for text "Accueil", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765130548' status='passed' stop='1637765130552'>
+                            <name>I wait for text "Rechercher", 10</name>
+                            <title>I wait for text "Rechercher", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765130556' status='passed' stop='1637765130559'>
+                            <name>I wait for text "Mes courriers", 10</name>
+                            <title>I wait for text "Mes courriers", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1637765130560' status='passed' stop='1637765130560'>
+                            <name>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</name>
+                            <title>L'utilisateur est connecté,et voit tous les onglets qui lui sont affectés</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765130561' status='passed' stop='1637765130561'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765130561' status='passed' stop='1637765130561'>
+                    <name>Login as user_GesER</name>
+                    <title>Login as user_GesER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765130561' status='passed' stop='1637765130561'>
+                    <name>Checking if user user_GesER is connected</name>
+                    <title>Checking if user user_GesER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765130562' status='passed' stop='1637765130562'>
+                    <name>User user_GesER is connected!</name>
+                    <title>User user_GesER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

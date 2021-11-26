@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637852599962' stop='1637852599963'>
+    <name>Authentication / Login:</name>
+    <title>Authentication / Login:</title>
+    <test-cases>
+        <test-case start='1637852599963' status='pending' stop='1637852599963'>
+            <name>0201 - Connection to Flower whith account user_SupER @login @user_SupER</name>
+            <title>0201 - Connection to Flower whith account user_SupER @login @user_SupER</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Skipped due to failure in 'before' hook</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

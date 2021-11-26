@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637852509050' stop='1637852599954'>
+    <name>Authentication / Login:</name>
+    <title>Authentication / Login:</title>
+    <test-cases>
+        <test-case start='1637852509052' status='failed' stop='1637852599943'>
+            <name>0101 - Connection to Flower whith account user_SupCP @login @user_SupCP</name>
+            <title>0101 - Connection to Flower whith account user_SupCP @login @user_SupCP</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_SupCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637852510250' status='failed' stop='1637852599941'>
+                    <name>I login "user_SupCP"</name>
+                    <title>I login "user_SupCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599947' status='passed' stop='1637852599947'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599947' status='passed' stop='1637852599947'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599948' status='passed' stop='1637852599948'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599949' status='passed' stop='1637852599949'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599949' status='passed' stop='1637852599949'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637852599949' status='passed' stop='1637852599949'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Protocol error (Page.navigate): Session closed. Most likely the page has been closed.</message>
+                <stack-trace>Error: Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+                    at CDPSession.send (D:\Projects\Codecept\Codecept\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:35)
+                    at navigate (D:\Projects\Codecept\Codecept\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+                    at FrameManager.navigateFrame (D:\Projects\Codecept\Codecept\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+                    at Frame.goto (D:\Projects\Codecept\Codecept\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:416:41)
+                    at Page.goto (D:\Projects\Codecept\Codecept\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1149:53)
+                    at Puppeteer.amOnPage (D:\Projects\Codecept\Codecept\node_modules\codeceptjs\lib\helper\Puppeteer.js:615:21)
+                    at CustomHelper.goToLoginPage (D:\Projects\Codecept\Codecept\custom_helper.js:68:18)
+                    at async CustomHelper.login (D:\Projects\Codecept\Codecept\custom_helper.js:39:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

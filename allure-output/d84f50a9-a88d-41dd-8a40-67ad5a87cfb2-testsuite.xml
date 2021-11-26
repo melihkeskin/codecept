@@ -1,0 +1,312 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637765001902' stop='1637765070486'>
+    <name>Authentication / Login:</name>
+    <title>Authentication / Login:</title>
+    <test-cases>
+        <test-case start='1637765001905' status='passed' stop='1637765019667'>
+            <name>0101 - Connection to Flower whith account user_SupCP @login @user_SupCP</name>
+            <title>0101 - Connection to Flower whith account user_SupCP @login @user_SupCP</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_SupCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765002534' status='passed' stop='1637765019643'>
+                    <name>I login "user_SupCP"</name>
+                    <title>I login "user_SupCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765019643' status='passed' stop='1637765019643'>
+                    <name>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</name>
+                    <title>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765019652' status='passed' stop='1637765019667'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765019652' status='passed' stop='1637765019663'>
+                            <name>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</name>
+                            <title>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765019671' status='passed' stop='1637765019671'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765019672' status='passed' stop='1637765019672'>
+                    <name>Login as user_SupCP</name>
+                    <title>Login as user_SupCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765019673' status='passed' stop='1637765019673'>
+                    <name>Checking if user user_SupCP is connected</name>
+                    <title>Checking if user user_SupCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765019674' status='passed' stop='1637765019674'>
+                    <name>User user_SupCP is connected!</name>
+                    <title>User user_SupCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765019825' status='passed' stop='1637765033939'>
+            <name>0201 - Connection to Flower whith account user_SupER @login @user_SupER</name>
+            <title>0201 - Connection to Flower whith account user_SupER @login @user_SupER</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_SupER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765020513' status='passed' stop='1637765033934'>
+                    <name>I login "user_SupER"</name>
+                    <title>I login "user_SupER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765033934' status='passed' stop='1637765033934'>
+                    <name>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</name>
+                    <title>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765033936' status='passed' stop='1637765033939'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765033936' status='passed' stop='1637765033939'>
+                            <name>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleERTab.active", 10</name>
+                            <title>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleERTab.active", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765033940' status='passed' stop='1637765033940'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765033940' status='passed' stop='1637765033940'>
+                    <name>Login as user_SupER</name>
+                    <title>Login as user_SupER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765033941' status='passed' stop='1637765033941'>
+                    <name>Checking if user user_SupER is connected</name>
+                    <title>Checking if user user_SupER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765033941' status='passed' stop='1637765033941'>
+                    <name>User user_SupER is connected!</name>
+                    <title>User user_SupER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765033978' status='passed' stop='1637765045867'>
+            <name>0301 - Connection to Flower whith account user_GesCP @login @user_GesCP</name>
+            <title>0301 - Connection to Flower whith account user_GesCP @login @user_GesCP</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_GesCP'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765034258' status='passed' stop='1637765045862'>
+                    <name>I login "user_GesCP"</name>
+                    <title>I login "user_GesCP"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765045862' status='passed' stop='1637765045862'>
+                    <name>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</name>
+                    <title>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765045864' status='passed' stop='1637765045867'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765045864' status='passed' stop='1637765045867'>
+                            <name>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</name>
+                            <title>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765045868' status='passed' stop='1637765045868'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765045868' status='passed' stop='1637765045868'>
+                    <name>Login as user_GesCP</name>
+                    <title>Login as user_GesCP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765045868' status='passed' stop='1637765045868'>
+                    <name>Checking if user user_GesCP is connected</name>
+                    <title>Checking if user user_GesCP is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765045868' status='passed' stop='1637765045868'>
+                    <name>User user_GesCP is connected!</name>
+                    <title>User user_GesCP is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765045905' status='passed' stop='1637765058731'>
+            <name>0401 - Connection to Flower whith account user_Stagiaire @login @user_Stagiaire</name>
+            <title>0401 - Connection to Flower whith account user_Stagiaire @login @user_Stagiaire</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_Stagiaire'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765046181' status='passed' stop='1637765058725'>
+                    <name>I login "user_Stagiaire"</name>
+                    <title>I login "user_Stagiaire"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765058725' status='passed' stop='1637765058725'>
+                    <name>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</name>
+                    <title>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765058728' status='passed' stop='1637765058731'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765058728' status='passed' stop='1637765058731'>
+                            <name>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</name>
+                            <title>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleCPTab.active", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765058732' status='passed' stop='1637765058732'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765058732' status='passed' stop='1637765058732'>
+                    <name>Login as user_Stagiaire</name>
+                    <title>Login as user_Stagiaire</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765058732' status='passed' stop='1637765058732'>
+                    <name>Checking if user user_Stagiaire is connected</name>
+                    <title>Checking if user user_Stagiaire is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765058733' status='passed' stop='1637765058733'>
+                    <name>User user_Stagiaire is connected!</name>
+                    <title>User user_Stagiaire is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637765058768' status='passed' stop='1637765070447'>
+            <name>0501 - Connection to Flower whith account user_GesER @login @user_GesER</name>
+            <title>0501 - Connection to Flower whith account user_GesER @login @user_GesER</title>
+            <labels>
+                <label name='tag' value='@login'/>
+                <label name='tag' value='@user_GesER'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1637765059047' status='passed' stop='1637765070441'>
+                    <name>I login "user_GesER"</name>
+                    <title>I login "user_GesER"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765070441' status='passed' stop='1637765070441'>
+                    <name>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</name>
+                    <title>L'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est "Mes courriers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765070443' status='passed' stop='1637765070447'>
+                    <name>Within "#sidebar-menu" </name>
+                    <title>Within "#sidebar-menu" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637765070443' status='passed' stop='1637765070446'>
+                            <name>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleERTab.active", 10</name>
+                            <title>I see element "#side-menu > li.has_sub.active > a.BrowsePlaceCourrierPersonnelleERTab.active", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1637765070448' status='passed' stop='1637765070448'>
+                    <name>login..</name>
+                    <title>login..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765070448' status='passed' stop='1637765070448'>
+                    <name>Login as user_GesER</name>
+                    <title>Login as user_GesER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765070448' status='passed' stop='1637765070448'>
+                    <name>Checking if user user_GesER is connected</name>
+                    <title>Checking if user user_GesER is connected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637765070448' status='passed' stop='1637765070448'>
+                    <name>User user_GesER is connected!</name>
+                    <title>User user_GesER is connected!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

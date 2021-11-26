@@ -1,0 +1,26 @@
+{
+  "name": "Codecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.1.1",
+    "pupper": "^1.0.0",
+    "puppeteer": "^10.2.0"
+  },
+  "dependencies": {
+    "@codeceptjs/ui": "^0.4.6",
+    "allure-commandline": "^2.13.8",
+    "ansi-regex": "^6.0.1",
+    "dataformat": "^1.0.0",
+    "dateformat": "^4.5.1",
+    "faker": "^5.5.3",
+    "JSONStream": "^1.3.5"
+  }
+}
