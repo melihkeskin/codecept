@@ -44,3 +44,4 @@ Pour mettre à jour ce fichier de définitions, lancer la commande : `npx codece
 * Lancer allure `allure serve output`# codecept
 
 ## Test1
+## Test2
