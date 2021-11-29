@@ -12,11 +12,15 @@ exports.config = {
       windowSize: '1280x960',
       executablePath: '/usr/bin/chromium-browser',
       chrome: {
-        args: ["--disable-gpu",
-          "--disable-dev-shm-usage",
-          "--disable-setuid-sandbox",
-          "--no-sandbox",
-          '--lang=fr-FR'],
+        args: [
+        '--disable-gpu',
+        '--disable-dev-shm-usage',
+        '--disable-setuid-sandbox',
+        '--no-first-run',
+        '--no-sandbox',
+        '--no-zygote',
+        '--single-process',
+        '--lang=fr-FR'],
       }
     },
     FileSystem: {}
