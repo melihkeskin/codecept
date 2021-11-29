@@ -10,6 +10,7 @@ exports.config = {
       show: false,
       headless: true,
       windowSize: '1280x960',
+      executablePath: '/usr/bin/chromium-browser',
       chrome: {
         args: ["--disable-gpu",
           "--disable-dev-shm-usage",
@@ -17,7 +18,6 @@ exports.config = {
           "--no-sandbox",
           '--lang=fr-FR'],
       }
-
     },
     FileSystem: {}
   },
