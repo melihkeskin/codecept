@@ -42,6 +42,4 @@ Pour mettre à jour ce fichier de définitions, lancer la commande : `npx codece
 * Commencer par installer allure avec la commande `npm install allure-commandline`
 * Lancer les tests avec le paramètre `--plugins allure`
 * Lancer allure `allure serve output`# codecept
-
-## Test1
-## Test2
+ 

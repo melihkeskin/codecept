@@ -1,13 +1,13 @@
 {
   "name": "Codecept",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automatisation Test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arondor",
   "license": "ISC",
   "devDependencies": {
     "codeceptjs": "^3.1.1",
