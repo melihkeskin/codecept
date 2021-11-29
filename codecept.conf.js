@@ -9,7 +9,6 @@ exports.config = {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
       show: false,
       windowSize: '1280x960',
-      ignoreDefaultArgs: ['--disable-extensions'],
       chrome: {
         args: ["--no-sandbox", '--lang=fr-FR'],
       }
