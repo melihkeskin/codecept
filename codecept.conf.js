@@ -7,7 +7,14 @@ exports.config = {
     },
     Puppeteer: {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
-      headless: true, args:['--no-sandbox']
+      show: false,
+      headless: false,
+      windowSize: '1280x960', 
+      executablePath: '/path/to/Chrome',
+      chrome: {
+        args: ["--no-sandbox", '--lang=fr-FR'],
+      },
+      waitUntil: 'networkidle2'
     },
     FileSystem: {}
   },
