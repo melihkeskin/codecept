@@ -34,12 +34,12 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" > /etc/apk/repositorie
 COPY local.conf /etc/fonts/local.conf
 
 # Add Chrome as a user
-RUN mkdir -p /usr/src/app \
+RUN mkdir -p /var/jenkins_home/workspace/demo \
     && adduser -D chrome \
-    && chown -R chrome:chrome /usr/src/app
+    && chown -R chrome:chrome /var/jenkins_home/workspace/demo
 # Run Chrome as non-privileged
 USER chrome
-WORKDIR /usr/src/app
+WORKDIR /var/jenkins_home/workspace/demo
 
 ENV CHROME_BIN=/usr/bin/chromium-browser \
     CHROME_PATH=/usr/lib/chromium/

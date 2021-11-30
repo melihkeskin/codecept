@@ -7,9 +7,11 @@ exports.config = {
     },
     Puppeteer: {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
-      args: ['--disable-dev-shm-usage'],
-    },
-    FileSystem: {}
+      args: [
+        "--disable-dev-shm-usage", 
+        "--disable-gpu",
+        "--disable-dev-shm-usage",],
+    }
   },
   plugins: {
     pauseOnFail: {},
