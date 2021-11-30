@@ -32,6 +32,7 @@ class CustomHelper extends Helper {
     return this.helpers['Puppeteer'];
   }
   async login(id, locale) {
+    
     I.say('login..');
     let user = users.get(id);
     const helper = this.getHelper(); 
