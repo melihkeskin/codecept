@@ -28,3 +28,5 @@ RUN addgroup -S pptruser && adduser -S -g pptruser pptruser \
 
 # Run everything after as non-privileged user.
 USER pptruser
+
+ENTRYPOINT ["chromium-browser", "--headless", "--use-gl=swiftshader", "--disable-software-rasterizer", "--disable-dev-shm-usage"]
