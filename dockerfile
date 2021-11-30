@@ -70,4 +70,4 @@ COPY dist /var/jenkins_home/workspace/demo/dist
 
 # make sure we can run without a UI
 ENV DISPLAY :99
-CMD Xvfb :99 -screen 0 1024x768x16 & node ./dist/simple.js
+CMD Xvfb :99 -screen 0 1024x768x16 & npx codeceptjs run 
