@@ -11,9 +11,7 @@ exports.config = {
       headless: false,
       windowSize: '1280x960', 
       executablePath: '/path/to/Chrome',
-      chrome: {
-        args: ["--no-sandbox", '--lang=fr-FR'],
-      },
+      devtools: true,
       waitUntil: 'networkidle2'
     },
     FileSystem: {}
