@@ -10,8 +10,8 @@ exports.config = {
       show: false,
       headless: true,
       windowSize: '1280x960',
-      executablePath: 'google-chrome-unstable',
-     // executablePath: '/usr/bin/chromium-browser',
+     // executablePath: 'google-chrome-unstable',
+      executablePath: '/usr/bin/chromium-browser',
         args: [
         '--disable-gpu',
         '--disable-dev-shm-usage',
