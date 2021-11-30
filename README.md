@@ -43,3 +43,4 @@ Pour mettre à jour ce fichier de définitions, lancer la commande : `npx codece
 * Lancer les tests avec le paramètre `--plugins allure`
 * Lancer allure `allure serve output`# codecept
  
+#test
