@@ -1,6 +1,6 @@
 node {
 
-    def imageTag = "Codecept/pipe:${env.BUILD_NUMBER}"
+    def imageTag = "codecept/pipe:${env.BUILD_NUMBER}"
     def dockerHome = tool 'myDocker'
 
     stage("Initializing") {
