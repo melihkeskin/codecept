@@ -1,6 +1,6 @@
 FROM node:latest
 WORKDIR / puppeteer
-RUN apt-get install -y\
+RUN apt-cache install -y\
 fonts-liberation\
 gconf-service\
 libappindicator1\
