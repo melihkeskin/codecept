@@ -7,7 +7,6 @@ exports.config = {
     },
     Puppeteer: {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
-      headless: true,
       browserName: 'chrome',
       'goog:chromeOptions': {
         args: ['--headless', '--disable-gpu', 'window-size=1920,1080'],
