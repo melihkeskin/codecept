@@ -34,8 +34,7 @@ class CustomHelper extends Helper {
   async login(id, locale) {
     I.say('login..');
     let user = users.get(id);
-    const helper = this.getHelper();
-    console.log(helper);
+    const helper = this.getHelper(); 
     await this.goToLoginPage(locale);
     await this.fillLoginForm(user[0], user[1]);
     await helper.waitForVisible('.logo-box', 60);
