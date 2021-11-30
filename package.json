@@ -10,17 +10,14 @@
   "author": "Arondor",
   "license": "ISC",
   "devDependencies": {
-    "chromium": "3.0.3",
-    "codeceptjs": "^3.2.2",
-    "docker-chromium": "1.4.2",
+    "codeceptjs": "^3.2.2", 
     "pupper": "^1.0.0",
     "puppeteer": "^12.0.0"
   },
   "dependencies": {
     "@codeceptjs/ui": "^0.4.6",
     "allure-commandline": "^2.13.8",
-    "ansi-regex": "^6.0.1",
-    "chromium": "^3.0.3",
+    "ansi-regex": "^6.0.1", 
     "dataformat": "^1.0.0",
     "dateformat": "^4.5.1",
     "faker": "^5.5.3",
