@@ -13,10 +13,10 @@ COPY load-tests /var/jenkins_home/workspace/codecept/load-tests
 COPY docker/run-tests.sh /var/jenkins_home/workspace/codecept/docker/
 
 WORKDIR /var/jenkins_home/workspace/codecept
-RUN npm install
+RUN npm install -y
 
 ONBUILD ADD . /var/jenkins_home/workspace/codecept
 ONBUILD WORKDIR /var/jenkins_home/workspace/codecept
 ONBUILD RUN npm install
 
-CMD ["/app/docker/run-tests.sh"]
+CMD ["/var/jenkins_home/workspace/codecept/docker/run-tests.sh"]
