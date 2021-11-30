@@ -8,7 +8,8 @@ const usersArray = JSON.parse(userJSON);
 const users = new Map();
 for (const [clef, value] of Object.entries(usersArray)) users.set(clef, value);
 
-const I = actor(); 
+const I = actor();
+
 //const users = new Map([["admin", ['admin', 'okidoki']], ["phu", ['phu', 'okidoki']], ["sto", ['sto', 'okidoki']], ["jna", ['jna', 'okidoki']], ["system", ['system', 'okidoki2019']], ["lho", ['lho', 'okidoki']], ["rh", ['rh', 'okidoki']]]);
 
 class CustomHelper extends Helper {
@@ -32,10 +33,9 @@ class CustomHelper extends Helper {
     return this.helpers['Puppeteer'];
   }
   async login(id, locale) {
-
     I.say('login..');
     let user = users.get(id);
-    const helper = this.getHelper(); 
+    const helper = this.getHelper();
     await this.goToLoginPage(locale);
     await this.fillLoginForm(user[0], user[1]);
     await helper.waitForVisible('.logo-box', 60);
@@ -56,7 +56,6 @@ class CustomHelper extends Helper {
   }
 
   async goToLoginPage(locale) {
-    console.log("goToLoginPage1");
     const helper = this.getHelper();
     const scope = await this.getCurrentScope();
     var url = '/signin?scope=' + scope;

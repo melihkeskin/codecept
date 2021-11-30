@@ -11,9 +11,7 @@ for (const [clef, value] of Object.entries(usersArray)) users.set(clef, value);
 
 Scenario('0101 - Connection to Flower whith account user_SupCP', async ({ I, browse }) => {
 	var user = "user_SupCP";
-	console.log(1);
 	I.login(user);
-	console.log(2);
 	I.say("L\'utilisateur est connecté, l'onglet sélectionné dans le bandeau de navigation est \"Mes courriers\"");
 	browse.menu.isTabSelected(users.get(user).mes_courriers);
 }).tag('login').tag('user_SupCP');
