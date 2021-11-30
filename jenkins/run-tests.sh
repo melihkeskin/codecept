@@ -6,7 +6,7 @@ echo "Pulling image ${VERSION}"
 mkdir report
 
 docker run --rm \
-    -v "$(pwd)"/report/:/var/jenkins_home/workspace/Codecept/report/ \
+    -v "$(pwd)"/report/:/var/jenkins_home/workspace/codecept/report/ \
     Codecept/pipe:${VERSION}
 
 status=$?
