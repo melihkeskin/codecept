@@ -32,7 +32,7 @@ class CustomHelper extends Helper {
     return this.helpers['Puppeteer'];
   }
   async login(id, locale) {
-    
+
     I.say('login..');
     let user = users.get(id);
     const helper = this.getHelper(); 
@@ -56,6 +56,7 @@ class CustomHelper extends Helper {
   }
 
   async goToLoginPage(locale) {
+    console.log("goToLoginPage1");
     const helper = this.getHelper();
     const scope = await this.getCurrentScope();
     var url = '/signin?scope=' + scope;
