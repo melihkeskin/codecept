@@ -10,14 +10,17 @@ exports.config = {
       show: false,
       headless: true,
       windowSize: '1280x960',
-      executablePath: '/usr/bin/chromium-browser',
-      chrome: {
-        args: ["--disable-gpu",
-          "--disable-dev-shm-usage",
-          "--disable-setuid-sandbox",
-          "--no-sandbox",
-          '--lang=fr-FR'],
-      }
+      executablePath: 'google-chrome-unstable',
+     // executablePath: '/usr/bin/chromium-browser',
+        args: [
+        '--disable-gpu',
+        '--disable-dev-shm-usage',
+        '--disable-setuid-sandbox',
+        '--no-first-run',
+        '--no-sandbox',
+        '--no-zygote',
+        '--single-process',
+        '--lang=fr-FR']
     },
     FileSystem: {}
   },
