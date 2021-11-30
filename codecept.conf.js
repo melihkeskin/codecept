@@ -8,9 +8,10 @@ exports.config = {
     Puppeteer: {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
       args: [
-        "--disable-dev-shm-usage", 
+        "--disable-dev-shm-usage",
         "--disable-gpu",
         "--disable-dev-shm-usage",],
+      "asar": false,
     }
   },
   plugins: {
