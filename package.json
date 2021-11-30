@@ -10,14 +10,14 @@
   "author": "Arondor",
   "license": "ISC",
   "devDependencies": {
-    "codeceptjs": "^3.2.2", 
+    "codeceptjs": "^3.2.2",
     "pupper": "^1.0.0",
     "puppeteer": "^12.0.0"
   },
   "dependencies": {
     "@codeceptjs/ui": "^0.4.6",
     "allure-commandline": "^2.13.8",
-    "ansi-regex": "^6.0.1",   
+    "ansi-regex": "^6.0.1",
     "dateformat": "^4.5.1",
     "faker": "^5.5.3",
     "JSONStream": "^1.3.5"
