@@ -17,7 +17,6 @@
      stage('Running Tests') {
        steps {
          echo 'Write running step from jenkinsfile'
-         sh 'npm install chromium'
          sh 'npx codeceptjs run --steps'
        }
      }

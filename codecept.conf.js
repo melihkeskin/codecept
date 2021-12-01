@@ -9,6 +9,7 @@ exports.config = {
       url: 'http://dev.crpn.cds.arondor.cloud/flower-docs-gui',
       headless:true,  
       args: [
+        '--use-gl=egl',
         '--no-sandbox',
         '--lang=fr-FR']
     },
