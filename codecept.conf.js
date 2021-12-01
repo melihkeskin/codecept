@@ -29,7 +29,7 @@ exports.config = {
     },
     allure: {
       enabled: true,
-      outputDir: 'report'
+      outputDir: 'allure-results'
     },
     autoDelay: {
       enabled: true
