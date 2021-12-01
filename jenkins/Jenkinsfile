@@ -29,7 +29,7 @@ node {
             }
             finally {
                 sh "ls report/"
-                allure includeProperties: false, jdk: '', results: [[path: 'report']]
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
 
                 echo 'Running Tests finally'
             }
