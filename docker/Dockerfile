@@ -15,4 +15,4 @@ ONBUILD RUN npm install -y
  
 CMD ["/var/jenkins_home/workspace/codecept/docker/run-tests.sh"]
 
-ONBUILD RUN npx codeceptjs run 
+ONBUILD RUN npx codeceptjs run --steps

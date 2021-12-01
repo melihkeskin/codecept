@@ -20,7 +20,7 @@
      stage("Running Tests") {
        steps {
          echo 'Running step'
-         sh 'npx codeceptjs run --steps --plugins allure'
+         sh 'npx codeceptjs run --steps'
        }
      }
    }
