@@ -1,27 +1,39 @@
 node {
 
     def imageTag = "codecept/pipe:${env.BUILD_NUMBER}"
-    def dockerHome = tool 'myDocker'
+    def dockerHome = tool 'cc-jens'
 
     stage("Initializing") {
-        cleanWs();
-        checkout scm;
-        sh 'git reset --hard'
-        env.PATH = "${dockerHome}/bin:${env.PATH}"
+            steps {
+                cleanWs();
+                checkout scm;
+                sh 'git reset --hard'
+
+                env.PATH = "${dockerHome}/bin:${env.PATH}"
+                echo 'Initializing env.PATH= ' + env.PATH
+            }
     }
 
     stage("Building Images") {
-        sh "docker build -t ${imageTag} -f docker/Dockerfile ."
+        steps {
+            sh "docker build -t ${imageTag} -f docker/Dockerfile ."
+            echo 'Building Images imageTag = ' + imageTag
+        }
     }
 
     stage("Running Tests") {
-        try {
-            sh "jenkins/run-tests.sh ${env.BUILD_NUMBER}"
-        }
-        finally {
-            sh "ls report/"
-            allure includeProperties: false, jdk: '', results: [[path: 'report']]
-        }
+         steps {
+            try {
+                sh "jenkins/run-tests.sh ${env.BUILD_NUMBER}"
+                echo 'Running Tests  env.BUILD_NUMBER = ' + env.BUILD_NUMBER
+            }
+            finally {
+                sh "ls report/"
+                allure includeProperties: false, jdk: '', results: [[path: 'report']]
+
+                echo 'Running Tests finally'
+            }
+         }
     }
 
 
