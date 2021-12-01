@@ -1,42 +1,24 @@
-node {
-
-    def imageTag = "codecept/pipe:${env.BUILD_NUMBER}"
-    def dockerHome = tool 'codecept'
-
+ pipelin{
     agent any
 
     stage("Initializing") {
-            steps {
-                cleanWs();
-                checkout scm;
-                sh 'git reset --hard'
-
-                env.PATH = "${dockerHome}/bin:${env.PATH}"
-                echo 'Initializing env.PATH= ' + env.PATH
+            steps { 
+                sh 'npm install'
+                sh 'npm build'
             }
     }
-
-    stage("Building Images") {
-        steps {
-            sh "docker build -t ${imageTag} -f docker/Dockerfile ."
-            echo 'Building Images imageTag = ' + imageTag
-        }
-    }
-
+ 
     stage("Running Tests") {
          steps {
             try {
-                sh "jenkins/run-tests.sh ${env.BUILD_NUMBER}"
-                echo 'Running Tests  env.BUILD_NUMBER = ' + env.BUILD_NUMBER
+              sh 'npx codeceptjs run --steps'
             }
             finally {
                 sh "ls report/"
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-
                 echo 'Running Tests finally'
             }
          }
     }
 
-
-}
+ }
