@@ -1,28 +1,25 @@
+ /* groovylint-disable-next-line CompileStatic */
  pipeline {
    agent any
 
    tools {
-     nodejs "build-default"
+     nodejs 'build-default'
    }
 
    stages {
-     stage("Initializing") {
+     stage('Initializing') {
        steps {
-         echo 'Initializing step'
-         sh 'npm install'
-         script {
-           def test = 2 + 2 > 3 ? 'cool' : 'not cool'
-           echo test
-         }
+         echo 'Write initializing step from jenkinsfile'
+         sh 'npm install' 
        }
      }
 
-     stage("Running Tests") {
+     stage('Running Tests') {
        steps {
-         echo 'Running step'
+         echo 'Write running step from jenkinsfile'
+         sh 'npm install chromium'
          sh 'npx codeceptjs run --steps'
        }
      }
    }
-
  }
