@@ -1,7 +1,7 @@
 node {
 
     def imageTag = "codecept/pipe:${env.BUILD_NUMBER}"
-    def dockerHome = tool 'cc-jens'
+    def dockerHome = tool 'codecept'
 
     stage("Initializing") {
             steps {
