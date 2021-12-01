@@ -1,18 +1,26 @@
  pipeline {
    agent any
 
-   tools {nodejs "build-default"}
+   tools {
+     nodejs "build-default"
+   }
 
    stages {
      stage("Initializing") {
        steps {
-         sh 'npm install' 
+         echo 'Initializing step'
+         sh 'npm install'
+         script {
+           def test = 2 + 2 > 3 ? 'cool' : 'not cool'
+           echo test
+         }
        }
      }
 
      stage("Running Tests") {
-       steps { 
-           sh 'npx codeceptjs run --steps --plugins allure'
+       steps {
+         echo 'Running step'
+         sh 'npx codeceptjs run --steps --plugins allure'
        }
      }
    }
