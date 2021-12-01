@@ -11,6 +11,6 @@ RUN npm install -y
 ONBUILD ADD . /var/jenkins_home/workspace/codecept
 ONBUILD WORKDIR /var/jenkins_home/workspace/codecept
  
-ONBUILD RUN npm install -y 
+ONBUILD RUN npm install
  
 CMD ["/var/jenkins_home/workspace/codecept/docker/run-tests.sh"]
