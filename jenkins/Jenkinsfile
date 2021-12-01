@@ -1,24 +1,18 @@
- pipelin{
-    agent any
+ pipelin {
+   agent any
 
-    stage("Initializing") {
-            steps { 
-                sh 'npm install'
-                sh 'npm build'
-            }
-    }
- 
-    stage("Running Tests") {
-         steps {
-            try {
-              sh 'npx codeceptjs run --steps'
-            }
-            finally {
-                sh "ls report/"
-                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-                echo 'Running Tests finally'
-            }
-         }
-    }
+   stages {
+     stage("Initializing") {
+       steps {
+         sh 'npm install -y' 
+       }
+     }
+
+     stage("Running Tests") {
+       steps { 
+           sh 'npx codeceptjs run --steps --plugins allure'
+       }
+     }
+   }
 
  }
