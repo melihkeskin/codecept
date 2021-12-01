@@ -3,6 +3,8 @@ node {
     def imageTag = "codecept/pipe:${env.BUILD_NUMBER}"
     def dockerHome = tool 'codecept'
 
+    agent any
+
     stage("Initializing") {
             steps {
                 cleanWs();
